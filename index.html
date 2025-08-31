@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spiritual Events Maharashtra</title>
+  <style>
+    :root {
+      --primary: #5e35b1;
+      --secondary: #7e57c2;
+      --light-bg: #fff9e6; /* light yellow */
+      --header-footer-bg: #ffd8a6; /* light orange */
+      --white: #ffffff;
+      --text: #1a1a1a;
+      --text-light: #555;
+      --transition: all 0.3s ease;
+      --nav-bg: #ffb74d; /* medium light orange for nav */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: var(--light-bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-top: 60px; /* space for fixed nav */
+    }
+
+    /* Fixed Navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--nav-bg);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 999;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0.75rem 1rem;
+    }
+
+    nav ul li {
+      margin: 0 1.2rem;
+    }
+
+    nav ul li a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: var(--transition);
+      padding: 0.3rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: var(--primary);
+      color: var(--white);
+      outline: none;
+    }
+
+    header {
+      background-color: var(--header-footer-bg);
+      color: var(--text);
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      color: var(--text-light);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 0.8rem 2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: var(--secondary);
+      color: var(--white);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .event {
+      background: rgb(238, 166, 31);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      transition: var(--transition);
+    }
+
+    .event:hover {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      transform: translateY(-5px);
+    }
+
+    .event h3 {
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+
+    footer {
+      background-color: var(--header-footer-bg);
+      color: var(--primary);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .event {
+        padding: 1rem;
+      }
+
+      .btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      nav ul li {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#getinvolved">Get Involved</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Spiritual Events in Maharashtra</h1>
+    <p>Experience peace, devotion, and divine connection through spiritual gatherings across the state.</p>
+    <a href="#contact" class="btn">Get Involved</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-title">
+      <h2>About Us</h2>
+      <p>We organize and promote spiritual events like bhajan sandhyas, kirtans, satsangs, and pilgrimages across Maharashtra to connect people with divinity and inner peace.</p>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events">
+    <div class="section-title">
+      <h2>Upcoming Events</h2>
+    </div>
+
+    <div class="event">
+      <h3>Bhajan Sandhya - Pune</h3>
+      <p><strong>Date:</strong> 30th August 2025<br/>
+         <strong>Venue:</strong> Shaniwar Wada, Pune<br/>
+         Join us for an evening of devotional music and spiritual reflection.</p>
+    </div>
+    <div class="event">
+  <h3>Gajanan Maharaj Palkhi Sohala – Shegaon</h3>
+  <p><strong>Date:</strong> 18th September 2025<br/>
+     <strong>Venue:</strong> Shri Gajanan Maharaj Mandir, Shegaon<br/>
+     Witness the divine procession and spiritual chants in honor of Gajanan Maharaj.</p>
+</div>
+
+<div class="event">
+  <h3>Full Moon Meditation – Aurangabad</h3>
+  <p><strong>Date:</strong> 28th September 2025<br/>
+     <strong>Venue:</strong> Siddharth Garden, Aurangabad<br/>
+     Join a full moon guided meditation and healing circle under the night sky.</p>
+</div>
+
+<div class="event">
+  <h3>Hanuman Jayanti Utsav – Parli Vaijnath</h3>
+  <p><strong>Date:</strong> 3rd October 2025<br/>
+     <strong>Venue:</strong> Shri Hanuman Mandir, Parli Vaijnath<br/>
+     A spiritual celebration with aarti, bhajans, and prasad distribution in honor of Lord Hanuman.</p>
+</div>
+
+<div class="event">
+  <h3>Chinmaya Jnana Yagna – Nagpur</h3>
+  <p><strong>Date:</strong> 10th–15th October 2025<br/>
+     <strong>Venue:</strong> Chinmaya Mission, Nagpur<br/>
+     A 6-day spiritual discourse series based on Vedanta teachings led by Swami Tejomayananda.</p>
+</div>
+
+<div class="event">
+  <h3>Datta Jayanti Celebrations – Narsobawadi</h3>
+  <p><strong>Date:</strong> 22nd October 2025<br/>
+     <strong>Venue:</strong> Shri Dattatreya Temple, Narsobawadi<br/>
+     A grand celebration of Lord Dattatreya’s birth with rituals, aarti, and devotional singing.</p>
+</div>
+
+
+    <div class="event">
+      <h3>Satsang with Swami Ji - Nashik</h3>
+      <p><strong>Date:</strong> 5th September 2025<br/>
+         <strong>Venue:</strong> Panchavati Ghat, Nashik<br/>
+         Engage in spiritual discourse and meditative chants by the riverside.</p>
+    </div>
+
+    <div class="event">
+      <h3>Shirdi Yatra</h3>
+      <p><strong>Date:</strong> 10th–12th September 2025<br/>
+         <strong>From:</strong> Mumbai to Shirdi<br/>
+         A 3-day guided spiritual tour to Sai Baba’s holy town.</p>
+    </div>
+
+    <div class="event">
+      <h3>Tapiaarti - Prakasha (Nandurbar)</h3>
+      <p><strong>Date:</strong> Every Sunday<br/>
+         <strong>Venue:</strong> Tapovan Temple, Prakasha, Nandurbar District<br/>
+         Experience the serene Tapiaarti ceremony surrounded by nature’s tranquility.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>For event registration or inquiries, reach out to us at:</p>
+      <p><strong>Email:</strong> connect@spiritualmaha.in</p>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Spiritual Maharashtra | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
